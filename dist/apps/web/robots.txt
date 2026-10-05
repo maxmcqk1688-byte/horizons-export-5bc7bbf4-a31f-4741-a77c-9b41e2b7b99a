@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# AdSense 审核需要 —— 允许 Googlebot 抓取全部内容与文章
+User-agent: Googlebot
+Allow: /
+
+# 抓取率友好，避免拖慢站点
+User-agent: *
+Crawl-delay: 1
+
+Sitemap: https://compound-interest-calculator.online/sitemap.xml
